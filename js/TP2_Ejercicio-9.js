@@ -6,18 +6,18 @@
 
 let contador = 0
 
-for(i=1; i<=500; i++){
+for(i = 1; i <= 500; i++){
     document.write(i)
 
-    if(i%4==0){
+    if(i % 4 == 0){
         document.write(" Es multiplo de 4")
     }
-    if(i%9==0){
+    if(i % 9 == 0){
         document.write(" Es multiplo de 9")
     }
     document.write("<br>")
     
-    if(i%5==0){
+    if(i % 5 == 0){
         document.write("<br>---------------------------------------- <br>")
     }
 }
